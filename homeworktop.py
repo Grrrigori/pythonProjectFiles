@@ -13,3 +13,4 @@ print(df.sort_index())
 print(df[df['GDP per capita']>1])
 print(df.head(15))
 print(df.tail(15))
+

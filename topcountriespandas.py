@@ -12,7 +12,9 @@ df2 = df.sort_values(by=user_input, ascending=False,)
 df2 = df2.reset_index(drop=True,)
 
 print(df2.loc[0:int(user_input2)-1], [user_input]) #- 1 potomu chto indexacija nachinaetsja s 0
-df2.to_csv('csv_files//new_noindex.csv', index=False)
+
+
+# df2.to_csv('csv_files//new_noindex.csv', index=False) #popitka zapisat fail s rezultatom
 
 
 # df2=(df2.loc[0:int(user_input2)-1], [user_input])#pochemy to ne rabotaet

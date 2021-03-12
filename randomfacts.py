@@ -30,16 +30,13 @@ def random_facts():
     # print(soup.prettify())
     question = soup.findAll("div", class_='sW6dbe')
     answer = soup.findAll("div", class_='EikfZ')
-
-    print(type(answer))
-    print(len(answer))
-    # result1 = question.text[0]
-    # result2= answer.text[0]
+    result1 = question[0].text
+    result2= answer[0].text
 
 
     print('Did You know?')
-    print('Question:' + str(question))
-    print('Answer:' + str(answer))
+    print('Question:' + str(result1))
+    print('Answer:' + str(result2))
 
 
 random_facts()

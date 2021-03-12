@@ -31,9 +31,8 @@ print(df2.loc[0:int(user_input2)-1], [user_input]) #- 1 potomu chto indexacija n
 # #     popitka udalit Country or region ne udalos
 
 
-# ne ponjatno kak sdelat tak chto bi otobrazhalsja odin column a ne vse i/ili hotja bi chtobi vse razom so scrllom vpravo a ne odin nad drugim
-# ne ponjatno pro dvojnie kvadratnie skobki i iloc loc
-# ne ponjatno kak ispolzovat commandu index_col= chto bi vistroit po zadannamu polzovatelem parametru
-# df = pd.read_csv('2019.csv',  index_col= 'Social support'/user_input, nrows = 11, header=1)
+
+
+
 # bil kakoj-to prostoj metod ubrat ciferki indeksi sleva
 
